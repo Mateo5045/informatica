@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pampa Verde - Reservá tu viaje</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header id="cabecera">
+    <div class="logo">
+      <h1>Pampa Verde</h1>
+      <small>Viajes que se viven</small>
+    </div>
+    <nav class="menu-navegacion">
+      <a href="index.html">Inicio</a>
+      <a href="index.html#actividades">Actividades</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="tel:+5491112345678">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero-reserva">
+    <p class="subtitulo">Tu próximo viaje</p>
+    <h2>Comenzá a vivir la experiencia</h2>
+    <p>En Pampa Verde nos encargamos de todo para que solo tengas que disfrutar.</p>
+  </section>
+
+  
+  <section class="contenedor-formulario">
+    <form class="caja-reserva">
+      <h3>Reservá tu viaje</h3>
+      
+      <div class="grilla-formulario">
+        <div class="campo">
+          <label>Destino</label>
+          <select>
+            <option>¿A dónde querés ir?</option>
+            <option>Paseo por la Selva de Galería</option>
+            <option>Alquiler de Kayaks</option>
+            <option>Zona de Acampe</option>
+            <option>Avistamiento de Fauna</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label>Fecha de salida</label>
+          <input type="date">
+        </div>
+
+        <div class="campo">
+          <label>Cantidad de personas</label>
+          <select>
+            <option>1 Pasajero</option>
+            <option selected>2 Pasajeros</option>
+            <option>3 Pasajeros</option>
+            <option>4+ Pasajeros</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label>Tipo de viaje</label>
+          <select>
+            <option>Paquete turístico</option>
+            <option>Ecoturismo / Aventura</option>
+            <option>Familiar</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" class="boton-buscar">🔍 Buscar viajes</button>
+    </form>
+  </section>
+
+ 
+  <section class="seccion-destinos">
+    <p class="etiqueta-sub">VENÍ A VISITAR</p>
+    <div class="cabecera-destinos">
+      <h2>¡HOTELES EN LA PAMPA!</h2>
+      <a href="index.html#actividades" class="enlace-ver-todos">Ver todos </a>
+    </div>
+
+    <div class="grilla-cuatro-tarjetas">
+      <article class="tarjeta-destino">
+        <h4>Mercure Santa Rosa La Pampa</h4>
+        <p>🗓️ 7 días / 6 noches</p>
+        <div class="pie-tarjeta">
+          <img id="hotel1" src="./imagen/mercure santa rosa.png" width="300" height="200" alt="">
+          <span class="precio">Desde $1.250.000</span>
+          <button class="flecha"></button>
+        </div>
+      </article>
+
+      <article class="tarjeta-destino">
+        <h4>Unit Santa Rosa</h4>
+        <p>🗓️ 6 días / 5 noches</p>
+        <div class="pie-tarjeta">
+          <img src="./imagen/uniit santa rosa.png" width="300" height="200" alt="">
+          <span class="precio">Desde $1.890.000</span>
+          <button class="flecha"></button>
+        </div>
+      </article>
+
+      <article class="tarjeta-destino">
+        <h4>Hotel Lihuel Calel</h4>
+        <p>🗓️ 5 días / 4 noches</p>
+        <div class="pie-tarjeta">
+          <img src="./imagen/hotel lihuel.png" width="300" height="200" alt="">
+          <span class="precio">Desde $890.000</span>
+          <button class="flecha"></button>
+        </div>
+      </article>
+
+      <article class="tarjeta-destino">
+        <h4>Hotel Pico</h4>
+        <p>🗓️ 4 días / 3 noches</p>
+        <div class="pie-tarjeta">
+          <img src="./imagen/hotel pico.png" width="300" height="200" alt="">
+          <span class="precio">Desde $650.000</span>
+          <button class="flecha"></button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  
+  <section class="seccion-beneficios" id="nosotros">
+    <p class="etiqueta-sub">¿Por qué elegir Pampa Verde?</p>
+    <h2>Tu viaje en buenas manos</h2>
+
+    <div class="grilla-beneficios">
+      <div class="item-beneficio">
+        <span class="icono">🎧</span>
+        <h4>Atención Personalizada</h4>
+      </div>
+      <div class="item-beneficio">
+        <span class="icono">🏷️</span>
+        <h4>Las mejores opciones y precios</h4>
+      </div>
+      <div class="item-beneficio">
+        <span class="icono">💳</span>
+        <h4>Pagos seguros y flexibles</h4>
+      </div>
+      <div class="item-beneficio">
+        <span class="icono">🧏</span>
+        <h4>Asistencia durante tu viaje</h4>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="banner-cierre">
+    <h3>La Pampa te espera... ¿Qué estás esperando?</h3>
+    <a href="#cabecera" class="boton-accion">Reservá ahora &rarr;</a>
+  </section>
+
+
+  <footer id="pie-pagina">
+    <p>© 2026 Reserva Natural Pampa Verde</p>
+    <p>Viajes que se viven</p>
+  </footer>
+
+</body>
+</html>
